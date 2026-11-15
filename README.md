@@ -903,9 +903,9 @@ linux shell scripts - sh, bash, dash, sash & etc.
 
 ## [aq](https://github.com/z0hm/far-scripts/blob/master/shell/aq "aq")
 
-  *24257 bytes, changed 2026-11-13 23:42*
+  *24356 bytes, changed 2026-11-15 01:07*
 
-  *SHA-256 `80dbf6455cc162ccdeb88d5dc0dd8504bdf0250479738902226bd90f07d2cf54`*
+  *SHA-256 `3c0f62750745928bff06b0ff6833fbc08f2868bb1737f3f0af1e99d928d0aa0d`*
 
   Bash script - interface for [Album Player Console](http://albumplayer.ru/linux/ap64.tar.gz "apc")
 
@@ -915,29 +915,35 @@ linux shell scripts - sh, bash, dash, sash & etc.
 
   **h** - help, **e** - exit, **x** - exit with save path
 
-  **.** - play all music files in folder, just **Enter** - repeat last command
+  **l** - list files, **a** - show previous 50 files, **z** - show next 50 files
 
-  **l** - list files in folder, **a**/**z** - show **previous**/**next** 50 files
+  **nothing, just press Enter** - repeat last command, **r** - return to previous folder
 
-  **c&lt;num&gt;** - convert file to **/tmp/out.wav**, **v&lt;num&gt;**/**u&lt;num&gt;** - view ansi/utf-8 file
+  **.** - play all music files in folder, **s** - stop playback
 
-  **&lt;num&gt;** - play file &lt;num&gt;, **p**/**n** - play **previous**/**next** file, after **Enter** **Enter** ...
+  **&lt;num&gt;** - play file &lt;num&gt;, **-** or **p** - play previous file, **+** or **n** - play next file
 
-  **&lt;num&gt;.&lt;num&gt;:&lt;num&gt;** or **&lt;num&gt;:&lt;num&gt;** - play file number &lt;num&gt; from min:sec
+  **&lt;num&gt;.&lt;num&gt;:&lt;num&gt;** or **&lt;num&gt;:&lt;num&gt;** - play file &lt;num&gt; from min:sec
 
-  **&lt;num&gt;.&lt;num&gt;** or **.&lt;num&gt;** - play file &lt;num&gt; from track number &lt;num&gt;, if cue sheet loaded
+  **&lt;num&gt;.&lt;num&gt;** or **.&lt;num&gt;** - play track/file &lt;num&gt; until the end cue sheet or folder
 
-  **s** - stop playback, **r** - return on jump history, after **Enter** **Enter** ...
-
-  **ro&lt;num&gt;**/**rw&lt;num&gt;** - remount **FAT** partition as **read only**/**writable**, available in **/media** folder only
-
-  **cp&lt;num&gt;** - copy file to **/media/flash**, **mv&lt;num&gt;** - move file, **rm&lt;num&gt;** - remove file
-
-  **ap** - show active player, **ap0** - use auto select player, **ap1**/**ap2** - use player without/with timeshift
+  **t** - show time and playing time, **tr&lt;num&gt;** - reset playback time
 
   **i** - show name played file and info about it, **i&lt;num&gt;** - show info about file
 
-  **t** - show time and playing time, **tr** - reset playback time
+  **c&lt;num&gt;** - convert file to /tmp/out.wav, **v&lt;num&gt;**/**u&lt;num&gt;** - view ansi/utf-8 file
+
+  **ap** - show active player, **ap0** - use auto select player, **d** - dns2ip On/Off
+
+  **ap1** - use player without timeshift, **ap2** - use player with timeshift
+
+  **sm** - show playback mode, **fm** - full memory mode, **di** - direct input mode
+
+  **ro&lt;num&gt;** - remount partition as RO, **rw&lt;num&gt;** - remount partition as RW
+
+  **cp&lt;num&gt;** - copy file to $home/$flash, **ex&lt;num&gt;** - execute file
+
+  **mv&lt;num&gt;** - move file to $home/$flash, **rm&lt;num&gt;** - remove file
 
   Url: http://albumplayer.ru/linux/english.html
 

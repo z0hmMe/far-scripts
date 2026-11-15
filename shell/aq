@@ -3,18 +3,21 @@
 # ![aq script](https://github.com/z0hmMe/far-scripts/blob/master/pic/Yocto64_AQ.png)
 # Commands:
 # **h** - help, **e** - exit, **x** - exit with save path
-# **.** - play all music files in folder, just **Enter** - repeat last command
-# **l** - list files in folder, **a**/**z** - show **previous**/**next** 50 files
-# **c<num>** - convert file to **/tmp/out.wav**, **v<num>**/**u<num>** - view ansi/utf-8 file
-# **<num>** - play file <num>, **p**/**n** - play **previous**/**next** file, after **Enter** **Enter** ...
-# **<num>.<num>:<num>** or **<num>:<num>** - play file number <num> from min:sec
-# **<num>.<num>** or **.<num>** - play file <num> from track number <num>, if cue sheet loaded
-# **s** - stop playback, **r** - return on jump history, after **Enter** **Enter** ...
-# **ro<num>**/**rw<num>** - remount **FAT** partition as **read only**/**writable**, available in **/media** folder only
-# **cp<num>** - copy file to **/media/flash**, **mv<num>** - move file, **rm<num>** - remove file
-# **ap** - show active player, **ap0** - use auto select player, **ap1**/**ap2** - use player without/with timeshift
+# **l** - list files, **a** - show previous 50 files, **z** - show next 50 files
+# **nothing, just press Enter** - repeat last command, **r** - return to previous folder
+# **.** - play all music files in folder, **s** - stop playback
+# **<num>** - play file <num>, **-** or **p** - play previous file, **+** or **n** - play next file
+# **<num>.<num>:<num>** or **<num>:<num>** - play file <num> from min:sec
+# **<num>.<num>** or **.<num>** - play track/file <num> until the end cue sheet or folder
+# **t** - show time and playing time, **tr<num>** - reset playback time
 # **i** - show name played file and info about it, **i<num>** - show info about file
-# **t** - show time and playing time, **tr** - reset playback time
+# **c<num>** - convert file to /tmp/out.wav, **v<num>**/**u<num>** - view ansi/utf-8 file
+# **ap** - show active player, **ap0** - use auto select player, **d** - dns2ip On/Off
+# **ap1** - use player without timeshift, **ap2** - use player with timeshift
+# **sm** - show playback mode, **fm** - full memory mode, **di** - direct input mode
+# **ro<num>** - remount partition as RO, **rw<num>** - remount partition as RW
+# **cp<num>** - copy file to $home/$flash, **ex<num>** - execute file
+# **mv<num>** - move file to $home/$flash, **rm<num>** - remove file
 # Url: http://albumplayer.ru/linux/english.html
 
 # init
